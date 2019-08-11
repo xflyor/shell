@@ -17,9 +17,9 @@
 > 1. ll 2>log.txt 2为执行错误，覆盖；
 > 1. ll 2>log.txt 2为执行错误，追加。
 > - 输入重定向
-> 2. ***cat 0<file.name***, 从文件输入;
-> 2. ***cat 0<<ww \n
+> 1. ***cat 0<file.name***, 从文件输入;
+> 1. ***cat 0<<ww \n
         word1.name \n
         word2.name \n
         ww***, **ww**为开始结束标识，前后都有；
-> 2. ***cat 0<<<string.name***,从字符串输入。
+> 1. ***cat 0<<<string.name***,从字符串输入。
